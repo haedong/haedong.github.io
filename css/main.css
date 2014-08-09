@@ -97,11 +97,27 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.box {
-    width: 200px;
-    height: 200px;
-    background-color: red;
+.box1 {
+    background-image: url("about.jpg");
+    padding-top: 80%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -20px;
+
 }
+
+.inbox {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+
+}
+
+
 
 
 
@@ -216,6 +232,17 @@ textarea {
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
+    .box {
+    width: 50%;
+}
+    .left {
+    float: left;
+    }
+
+    .right {
+     float: right;
+    }
+
 
 
 
