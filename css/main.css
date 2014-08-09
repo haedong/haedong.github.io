@@ -98,25 +98,105 @@ textarea {
    ========================================================================== */
 
 .box1 {
-    background-image: url("about.jpg");
-    padding-top: 80%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-top: -10px;
-    margin-left: -10px;
-    margin-right: -20px;
+    background: url("about1.jpg") no-repeat;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    position: relative;
+    float: left;
 
+}
+
+.box2 {
+    background: url("sportsman.jpg") no-repeat;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    position: relative;
+    float: left;
+
+}
+
+.box3 {
+    background: url("host.jpg") no-repeat;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    position: relative;
+    float: left;
+    margin-top: -295px;
+
+}
+
+.box4 {
+    background: url("impact.jpg") no-repeat;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    position: relative;
+    float: left;
+
+}
+
+.nav {
+    height: 300px;
+    width: 100%;
+    margin-top: -5px;
+    position: relative;
+    background-color: papayawhip;
 }
 
 .inbox {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: floralwhite;
     text-transform: uppercase;
     position: absolute;
-    top: 10px;
-    left: 30px;
+    left: 20px;
+    top: 20px;
 
 }
 
+.inbox a {
+    text-decoration: none;
+    color: white;
+}
+
+.inbox1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    top: 20px;
+    left: 20px;
+
+}
+
+.inbox2 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    color: floralwhite;
+    top:  70px;
+    left: 20px;
+
+}
+
+.nav2 {
+    height: 350px;
+    width: 100%;
+    margin-top: -340px;
+    position: relative;
+    background-color: papayawhip;
+}
+
+.about1 {
+    background: url("about1.jpg") no-repeat;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    position: relative;
+    float: left;
+
+}
 
 
 
@@ -233,15 +313,13 @@ textarea {
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
     .box {
-    width: 50%;
-}
-    .left {
-    float: left;
+        width: 50%;
+    }
+    .about-box {
+        width: 100%;
     }
 
-    .right {
-     float: right;
-    }
+}
 
 
 
